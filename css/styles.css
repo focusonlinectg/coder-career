@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.body {
+    background: linear-gradient(339deg, #B8E7FA 35.75%, #E6E6FA 90.79%);
+    font-family: "Poppins", sans-serif;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 24px;
+    background-color: white;
+}
+
+.nav-container span {
+    color: #FFA500;
+}
+
+.btn {
+    border-radius: 10px;
+    opacity: 0.8;
+    background: linear-gradient(90deg, #FFA500 0%, #FFD447 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #0D1321;
+    font-weight: 600;
+    padding: 17px 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn:hover {
+   background: linear-gradient(90deg, #000000 0%, #000000 100%);
+ color: #ffffff;
+}
+
+.hero-container {
+    margin: 100px 50px;
+    border-radius: 16px;
+    background: #E6EDF9;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    padding: 40px 60px;
+    text-align: center;
+
+}
+.hero-container-child {
+    width: 50%;
+}
+
+.hero-container img {
+    width: 60%;
+
+}
+
+.hero-container h1 {
+    color: #0D1321;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.hero-container p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.hero-container button{
+    border-radius: 10px;
+    opacity: 0.8;
+    background: linear-gradient(90deg, #FFA500 0%, #FFD447 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #0D1321;
+    font-weight: 600;
+    padding: 17px 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.why-development-container {
+    margin-top: 100px;
+}
+
+.why-development-container h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
+}
+
+.why-development-container p {
+    margin-top: 24px;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.change-the-world-container{
+    margin: 100px 50px;
+    border-radius: 16px;
+    background: #E6EDF9;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+     gap: 32px;
+     flex-direction: row-reverse;
+    padding: 48px;
+    text-align: center;
+}
+.change-the-world-container h1{
+color: rgba(13, 19, 33, 0.70);
+font-size: 24px;
+font-weight: 700;
+padding-bottom: 18px;
+}
+.change-the-world-container p{
+ color: #0D1321;
+font-size: 16px;
+font-weight: 400;
+padding-bottom: 32px;
+}
+.change-the-world-container button{
+       border-radius: 10px;
+    opacity: 0.8;
+    background: linear-gradient(90deg, #FFA500 0%, #FFD447 100%);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    color: #0D1321;
+    font-weight: 600;
+    padding: 17px 24px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.my-inspiration-container h1{
+   color: #0D1321;
+text-align: center;
+font-size: 32px;
+font-weight: 800;
+ margin-top: 100px;
+}
+.my-inspiration-container p{
+      margin-top: 24px;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.video-container{
+    margin: 48px auto;
+    width: 1036px;
+    text-align:  center;
+    padding: 32px;
+    border-radius: 16px;
+border: 1px solid rgba(13, 19, 33, 0.20);
+}
+.career-container{
+      margin-top: 48px;
+}
+.career-hedding-container h1{
+    color: #0D1321;
+text-align: center;
+font-size: 32px;
+font-weight: 800;
+ margin-top: 100px;
+}
+.career-hedding-container p{
+    margin-top: 24px;
+    margin-bottom: 48px;
+    color: #0D1321;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.course-container{
+ display: flex;
+      justify-content: space-around;
+      gap: 10px;
+}
+.milestone-container{
+   width: 100%;
+   padding: 40px;
+}
+.milestone{
+ width: 180px;
+padding: 40px;
+border-radius: 16px;
+background: linear-gradient(180deg, #E6EDF9 0%, #9DE5FF 100%);
+
+box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.25);
+}
+.milestone a{
+    color: #0D1321;
+font-size: 16px;
+font-weight: 700;
+text-decoration-line: underline;
+text-decoration-style: solid;
+}
+.milestone h3{
+color: #0D1321;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
+    background-color: white;
+    margin-top: 100px;
+  
+}
+.footer-container h1{
+    color: #0D1321;
+text-align: center;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+}
+.social-icons{
+display: flex;
+gap: 20px;
+}
+
